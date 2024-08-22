@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <!-- Google Font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUI cdn -->
@@ -17,19 +21,23 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
+              },
+              fontFamily: {
+                'manrope': ['Manrope','sans-serif'],
+              },
             }
           }
         }
       </script>
 </head>
-<body class="">
+
+<body class="font-manrope">
     <header class="bg-gray-50">
       <div class=" bg-gradient-to-t from-white to-transparent">
-        <div class="container w-[90%] mx-auto border border-5">
+        <div class="container w-[80%] mx-auto border border-5 pt-9 lg:pt-12">
           <!-- navbar................................ -->
-          <nav>
-            <div class="navbar bg-base-100 -space-x-32 ">
+          <nav class="mb-9 lg:mb-14 border border-red-500 ">
+            <div class="navbar -space-x-32 ">
               <div class="flex-1">
                
                 <div class="  bg-lime-300 rounded-full ">
@@ -90,6 +98,20 @@
             </div>
            
           </nav>
+          <!-- banner part.......................... -->
+           <div class="flex flex-col items-center justify-center border border-red-500">
+            <div class="w-[80%]  border border-yellow-400 mb-4 lg:mb-6 ">
+              <img class="mx-auto" src="images/banner.png" alt="">
+            </div>
+            <div class="text-center mb-10 lg:mb-24">
+              <h1 class="border border-yellow-400 mb-4 lg:mb-6 text-2xl lg:text-6xl font-extrabold ">A barn house of this design has a striking appearance</h1>
+              <p class="border border-yellow-400 mb-5  lg:mb-8 text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <a class="btn w-full lg:w-auto rounded-full bg-lime-200 box-border border-lime-300 "><span class="font-bold text-xl">View Details</span> <div class="  bg-lime-400 rounded-full ">
+                <i class="-rotate-45 text-white p-1.5 fa-solid fa-arrow-right"></i>
+              </div></a>
+            </div>
+
+           </div>
 
         </div>
 
