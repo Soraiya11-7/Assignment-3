@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind css cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
+   
     <script>
         tailwind.config = {
           theme: {
@@ -21,8 +23,79 @@
         }
       </script>
 </head>
-<body>
-    hello!
+<body class="">
+    <header class="bg-gray-50">
+      <div class=" bg-gradient-to-t from-white to-transparent">
+        <div class="container w-[90%] mx-auto border border-5">
+          <!-- navbar................................ -->
+          <nav>
+            <div class="navbar bg-base-100 -space-x-32 ">
+              <div class="flex-1">
+               
+                <div class="  bg-lime-300 rounded-full ">
+                  <i class="-rotate-45 p-1.5 fa-solid fa-arrow-right"></i>
+                </div>
+                
+                <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <!-- menu menu-horizontal -->
+                <ul class="lg:flex space-x-5 ">
+                  <li class="text-lg font-bold"><a>Home</a></li>
+                  <li class="text-lg "><a>Services</a></li>
+                  <li class="text-lg "><a>Portfolio</a></li>
+                  <li class="text-lg "><a>Blogs</a></li>
+                  <li class="text-lg "><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost bg-red-200 rounded-full p-3.5 lg:hidden">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block h-5 w-5 stroke-current">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li class=""><a >Home</a></li>
+                    <li><a class="">Services</a></li>
+                    <li><a class="">Portfolio</a></li>
+                    <li><a class="">Blogs</a></li>
+                    <li><a class="">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class=" lg:flex space-x-4 hidden items-center ">
+                  <div class=" bg-red-200  rounded-full">
+                    <i class="p-2.5 fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  
+                  <i class="rounded-full bg-red-200 p-2.5 fa-solid fa-cart-shopping"></i>
+                  <a class="btn rounded-full bg-lime-300 "><span class="font-bold text-xl">Book Consult</span> <div class="  bg-black rounded-full ">
+                    <i class="-rotate-45 text-white p-1.5 fa-solid fa-arrow-right"></i>
+                  </div></a>
+                  
+                </div>
+              </div>
+              
+              
+            </div>
+           
+          </nav>
+
+        </div>
+
+      </div>
+    
+    </header>
     
 </body>
 </html>
