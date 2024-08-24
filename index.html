@@ -32,23 +32,25 @@
 </head>
 
 <body class="font-manrope">
+  <!-- Hero section......................... -->
     <header class="bg-gray-50">
       <div class=" bg-gradient-to-t from-white to-transparent">
-        <div class="container w-[80%] mx-auto border border-5 pt-9 lg:pt-12">
+        <div class="container w-[85%] mx-auto border border-5 pt-9 lg:pt-12 ">
           <!-- navbar................................ -->
-          <nav class="mb-9 lg:mb-14 border border-red-500 ">
-            <div class="navbar -space-x-32 ">
-              <div class="flex-1">
+          <nav class="mb-9 lg:mb-14 border border-red-500 w-full ml-0">
+
+            <div class="navbar -space-x-32  pr-0 pl-0">
+              <div class="flex-1 gap-2">
                
-                <div class="  bg-lime-300 rounded-full ">
+                <div class="  bg-lime-400 rounded-full ">
                   <i class="-rotate-45 p-1.5 fa-solid fa-arrow-right"></i>
                 </div>
                 
-                <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
+                <a class="text-3xl font-bold">Rinterio</a>
               </div>
               <div class="navbar-center hidden lg:flex">
                 <!-- menu menu-horizontal -->
-                <ul class="lg:flex space-x-5 ">
+                <ul class="lg:flex space-x-4 ">
                   <li class="text-lg font-bold"><a>Home</a></li>
                   <li class="text-lg "><a>Services</a></li>
                   <li class="text-lg "><a>Portfolio</a></li>
@@ -56,9 +58,9 @@
                   <li class="text-lg "><a>Contact Us</a></li>
                 </ul>
               </div>
-              <div class="navbar-end">
-                <div class="dropdown">
-                  <div tabindex="0" role="button" class="btn btn-ghost bg-red-200 rounded-full p-3.5 lg:hidden">
+              <div class="navbar-end -mr-3">
+                <div class="dropdown ">
+                  <div tabindex="0" role="button" class="btn btn-ghost box-border border-2 border-zinc-100 bg-white rounded-full p-3.5 lg:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -81,13 +83,29 @@
                     <li><a class="">Contact Us</a></li>
                   </ul>
                 </div>
-                <div class=" lg:flex space-x-4 hidden items-center ">
-                  <div class=" bg-red-200  rounded-full">
+                <div class=" lg:flex space-x-3 hidden items-center  ">
+                  <div class=" bg-white box-border border-2 border-zinc-100 rounded-full">
                     <i class="p-2.5 fa-solid fa-magnifying-glass"></i>
                   </div>
+                  <div class="rounded-full bg-white box-border border-2 border-zinc-100 p-2">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 "
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+
+                  </div>
+              
                   
-                  <i class="rounded-full bg-red-200 p-2.5 fa-solid fa-cart-shopping"></i>
-                  <a class="btn rounded-full bg-lime-300 "><span class="font-bold text-xl">Book Consult</span> <div class="  bg-black rounded-full ">
+                  <!-- <i class="rounded-full bg-white box-border border-2 border-zinc-100 p-2.5 fa-solid fa-cart-shopping"></i> -->
+                  <a class="btn rounded-full bg-lime-400 mr-0  "><span class="font-bold text-xl">Book Consult</span> <div class="  bg-black rounded-full ">
                     <i class="-rotate-45 text-white p-1.5 fa-solid fa-arrow-right"></i>
                   </div></a>
                   
@@ -104,9 +122,9 @@
               <img class="mx-auto" src="images/banner.png" alt="">
             </div>
             <div class="text-center mb-10 lg:mb-24">
-              <h1 class="border border-yellow-400 mb-4 lg:mb-6 text-2xl lg:text-6xl font-extrabold ">A barn house of this design has a striking appearance</h1>
-              <p class="border border-yellow-400 mb-5  lg:mb-8 text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-              <a class="btn w-full lg:w-auto rounded-full bg-lime-200 box-border border-lime-300 "><span class="font-bold text-xl">View Details</span> <div class="  bg-lime-400 rounded-full ">
+              <h1 class="border border-yellow-400 mb-4 lg:mb-6 text-2xl lg:text-6xl font-extrabold w-full lg:w-[90%] mx-auto ">A barn house of this design has a striking appearance</h1>
+              <p class="border border-yellow-400 mb-5  lg:mb-8 text-sm lg:text-base w-full lg:w-[90%] mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <a class="btn w-full lg:w-auto rounded-full bg-lime-200 box-border border-2 border-lime-300 "><span class="font-bold text-xl">View Details</span> <div class="  bg-lime-400 rounded-full ">
                 <i class="-rotate-45 text-white p-1.5 fa-solid fa-arrow-right"></i>
               </div></a>
             </div>
@@ -118,6 +136,65 @@
       </div>
     
     </header>
+    <!-- main section............................................................................ -->
+     <main class="bg-gray-50  ">
+      <!-- About Us section.................................................................. -->
+       <section class="  border-2 border-red-600 mb-28">
+        
+        <div class="container w-[85%] mx-auto border-2 border-green-200 relative">
+                <!-- vector content............ -->
+          <div class="hidden lg:block lg:absolute mx-auto lg:-left-[3.8%] lg:top-[6%]">
+            <img class=" " src="images/Vector.png" alt="">
+           </div>
+      
+          <!-- about-content......... -->
+          <div class="lg:flex justify-between mt-8 lg:mt-24 ">
+            <!-- text content... -->
+             <div class="border-2 border-green-300 w-full lg:w-[49%] pb-0">
+              <div class="border-2 border-yellow-300 w-full inline-flex flex-col mb-6 lg:mb-0 ">
+                <div class="inline-flex justify-center lg:justify-normal">
+                  <div class=" bg-white rounded-full py-1.5 px-3 mb-4 ">
+                    <i class="text-lg fa-solid fa-arrow-right"></i> <a class="text-base font-bold">About Us</a>
+                  </div>
+                </div>
+                  
+                  <h2 class="font-bold text-2xl lg:text-4xl mb-4 lg:mb-6 text-center lg:text-left">We design thoughtful, <br>
+                     liveable spaces</h2>
+                  <p class="text-sm lg:text-base mb-6 text-center lg:text-left">Every inch of this barn house reflects a balance between striking aesthetics and functional living.</p> 
+                   <!-- commercial-content -->
+                  <div class="flex bg-white rounded-2xl mb-4 lg:mb-6 gap-4 p-5 lg:p-6 lg:items-center ">
+                    <div class="h-[40px] w-[40px] lg:h-[64px] lg:w-[64px]">
+                      <img class="h-full w-full" src="images/commercial.png" alt="">
+                    </div>
+                    <div>
+                      <h3 class="font-bold text-base lg:text-xl mb-3">Commercial</h3>
+                      <p class="text-base w-[80%]">Crafting livable commercial spaces with a focus on usability.</p>
+                    </div>
+                  </div>
+                     <!-- residential-content -->
+                     <div class="flex bg-white rounded-2xl gap-4 p-5 lg:p-6 lg:items-center ">
+                      <div class="h-[40px] w-[40px] lg:h-[64px] lg:w-[64px]">
+                        <img class="h-full w-full" src="images/residential.png" alt="">
+                      </div>
+                      <div>
+                        <h3 class="font-bold text-base lg:text-xl mb-3">Residential</h3>
+                        <p class="text-base w-[80%]">Livable spaces that balance elegance and practicality.</p>
+                      </div>
+                </div>
+               
+              </div>
+             </div>
+         
+           <!-- img content -->
+            <div class="border-2  border-blue-300  lg:w-[42%] lg:h-auto">
+              <img class="rounded-2xl object-none object-[60%_50%]  h-full w-full" src="images/Rectangle.png" alt="">
+            </div>
+  
+          </div>
+        </div>
+       </section>
+        
+     </main>
     
 </body>
 </html>
